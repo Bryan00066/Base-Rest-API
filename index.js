@@ -6,7 +6,7 @@ var express = require('express'),
     cors = require('cors'),
     secure = require('ssl-express-www');
 
-const PORT = 22 || 5000 || 3000
+const PORT = 8080 || 5000 || 3000
 
 var { color } = require('./lib/color.js')
 var apirouter = require('./routes/api.js')
